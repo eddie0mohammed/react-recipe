@@ -22,8 +22,7 @@ class App extends Component {
           <Route exact path="/recipes" render={(routeProps) => <Recipes {...routeProps}/>}/>
           <Route exact path="/recipes/:id" render={(routeProps) => <SingleRecipe {...routeProps}/>}/>
           <Route  render={() => <Default />}/>
-          {/* <Route />
-          <Route /> */}
+          
         </Switch>
         
       </div>

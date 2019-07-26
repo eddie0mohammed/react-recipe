@@ -11,8 +11,8 @@ class Recipes extends Component {
     state = {
         recipes: recipeData,
         search: '',
-        url: `https://cors-anywhere.herokuapp.com/https://food2fork.com/api/search?key=${process.env.REACT_APP_API_KEY}`,
-        base_url: `https://cors-anywhere.herokuapp.com/https://food2fork.com/api/search?key=${process.env.REACT_APP_API_KEY}`,
+        url: `https://cors-anywhere.herokuapp.com/https://food2fork.com/api/search?key=d20e3e423b5a2669b6cda33e4f791fcb`,
+        base_url: `https://cors-anywhere.herokuapp.com/https://food2fork.com/api/search?key=d20e3e423b5a2669b6cda33e4f791fcb`,
         query: '&q=',
         error:''
         
